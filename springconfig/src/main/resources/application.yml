@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: springconfig
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liqingjun918/DevOps.git #配置git仓库地址
+          searchPaths: springconfig #配置仓库路径
+          username: liqingjun918 #访问git仓库的用户名
+          password: airongrong@2005 #访问git仓库的用户密码
+      label: master #配置仓库的分支
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
