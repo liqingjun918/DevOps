@@ -18,3 +18,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+#是否需要权限拉去，默认是true,如果不false就不允许你去拉取配置中心Server更新的内容
+management:
+  security:
+    enabled: false
