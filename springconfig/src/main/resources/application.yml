@@ -19,10 +19,13 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: localhost:9092
+          brokers: http://localhost:9092
     bus:
       refresh:
         enabled: true
+
+name: liqingjun demo
+age: 18
 # 客户端调用需要
 management:
   endpoints:
