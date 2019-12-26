@@ -14,14 +14,21 @@ spring:
           username: liqingjun918 #访问git仓库的用户名
           password: airongrong@2005 #访问git仓库的用户密码
       label: master #配置仓库的分支
+
+    # kafka
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
     bus:
       refresh:
         enabled: true
-  kafka:
-    bootstrap-servers: http://localhost:9092 #配置 kafka 服务器的地址和端口
-    consumer:
-      group-id: SpringCloud-bus
-
+# 客户端调用需要
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 eureka:
   instance:
     hostname: ${spring.cloud.client.ipAddress}
@@ -29,8 +36,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-#是否需要权限拉去，默认是true,如果不false就不允许你去拉取配置中心Server更新的内容
-management:
-  security:
-    enabled: false
