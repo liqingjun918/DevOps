@@ -3,3 +3,5 @@ server:
 spring:
   application:
     name: eurekaclient
+name: liqingjun
+age: 18
