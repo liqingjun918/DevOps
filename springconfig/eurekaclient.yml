@@ -3,8 +3,13 @@ server:
 spring:
   application:
     name: eurekaclient
+<<<<<<< HEAD
 name: liqingjun-jack
 age: 28
+=======
+name: liqingjun-Jack
+age: 34
+>>>>>>> 8ae0622bf2851577a76336fb9db9b1519d122f3e
 management:
   endpoints:
     web:
