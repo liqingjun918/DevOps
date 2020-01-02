@@ -3,6 +3,7 @@ server:
 spring:
   application:
     name: eurekaclient
+<<<<<<< HEAD
   cloud:
     bus:
       refresh:
@@ -11,6 +12,10 @@ spring:
     bootstrap-servers: localhost:9092
 name: liqingjun-jack
 age: 28
+=======
+name: liqingjun-JACK
+age: 31
+>>>>>>> 5324565dd5e14fcd32cfc71d8e5efd25921c4ea7
 management:
   endpoints:
     web:
