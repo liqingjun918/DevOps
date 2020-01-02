@@ -4,7 +4,11 @@ spring:
   application:
     name: eurekaclient
 name: liqingjun
+<<<<<<< HEAD
 age: 18
 management:
   security:
     enabled: false
+=======
+age: 19
+>>>>>>> 3304d7a4f6ce4000ef692e2453a9c7c56258c9cb
