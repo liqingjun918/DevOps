@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: eurekaclient
+name: liqingjun
+age: 20
 management:
   endpoints:
     web:
