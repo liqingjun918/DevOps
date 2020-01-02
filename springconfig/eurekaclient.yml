@@ -4,7 +4,7 @@ spring:
   application:
     name: eurekaclient
 name: liqingjun-Jack
-age: 33
+age: 34
 management:
   endpoints:
     web:
