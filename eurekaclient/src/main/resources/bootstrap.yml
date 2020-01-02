@@ -11,9 +11,17 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 name: liqingjun
+<<<<<<< HEAD
 age: 18
 management:
   endpoints:
     web:
       exposure:
         include: bus-refresh
+=======
+age: 20
+#是否需要权限拉去，默认是true,如果不false就不允许你去拉取配置中心Server更新的内容
+management:
+  security:
+    enabled: false
+>>>>>>> e3bcba0a0ed8a96a231a0d8f2b953e02237244e7
