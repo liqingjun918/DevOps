@@ -9,8 +9,8 @@ spring:
         enabled: true
   kafka:
     bootstrap-servers: localhost:9092
-name: liqingjun-JACK
-age: 31
+name: liqingjun-Jackie
+age: 33
 management:
   endpoints:
     web:
