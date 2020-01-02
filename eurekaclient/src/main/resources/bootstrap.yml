@@ -1,7 +1,8 @@
 spring:
+  application:
+    name: eurekaclient
   cloud:
     config:
-      name: eurekaclient
       label: master
       discovery:
         enabled: true

@@ -1,18 +1,4 @@
 server:
   port: 8764
-spring:
-  application:
-    name: eurekaclient
-  cloud:
-    bus:
-      refresh:
-        enabled: true
-  kafka:
-    bootstrap-servers: localhost:9092
 name: liqingjun-JACK
 age: 31
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
