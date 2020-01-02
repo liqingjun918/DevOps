@@ -5,3 +5,6 @@ spring:
     name: eurekaclient
 name: liqingjun
 age: 18
+management:
+  security:
+    enabled: false
