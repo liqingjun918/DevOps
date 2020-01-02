@@ -19,6 +19,8 @@ spring:
         enabled: true
   kafka:
     bootstrap-servers: localhost:9092
+    consumer:
+      group-id: test
 eureka:
   client:
     serviceUrl:

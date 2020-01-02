@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: eurekaclient
+  cloud:
+    bus:
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: localhost:9092
 name: liqingjun-jack
 age: 28
 management:
