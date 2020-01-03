@@ -10,6 +10,8 @@ spring:
     bus:
       refresh:
         enabled: true
+      trace:
+        enabled: true
   kafka:
     bootstrap-servers: localhost:9092
 eureka:
