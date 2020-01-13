@@ -11,9 +11,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="feign" />
-        <module name="eurekaclient" />
-        <module name="gatewaydemo" />
         <module name="springconfig" />
+        <module name="gatewaydemo" />
+        <module name="eurekaclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
