@@ -17,10 +17,12 @@
         <option value="$PROJECT_DIR$/gatewaydemo/pom.xml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
         <option value="$PROJECT_DIR$/springconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/demodistributedlock/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/distributedlock/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </set>
     </option>
